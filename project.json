@@ -1,17 +1,17 @@
 {
-  "name": "Repo 8 process",
+  "name": "BlankProcess388",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.8.2-alpha.786515]",
-    "UiPath.Mail.Activities": "[1.8.2-alpha.787464]",
-    "UiPath.System.Activities": "[20.3.0-alpha.787043]",
-    "UiPath.UIAutomation.Activities": "[20.4.0-alpha.782497]"
+    "UiPath.Excel.Activities": "[2.8.3-preview]",
+    "UiPath.Mail.Activities": "[1.8.3-preview]",
+    "UiPath.System.Activities": "[20.4.0]",
+    "UiPath.UIAutomation.Activities": "[20.4.0-beta.901323]"
   },
   "webServices": [],
   "schemaVersion": "4.0",
-  "studioVersion": "20.3.0.105",
-  "projectVersion": "1.0.0",
+  "studioVersion": "20.4.0.0",
+  "projectVersion": "1.0.2",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -31,6 +31,10 @@
       "privateWorkflows": []
     },
     "fileInfoCollection": []
+  },
+  "arguments": {
+    "input": [],
+    "output": []
   },
   "expressionLanguage": "VisualBasic"
 }
