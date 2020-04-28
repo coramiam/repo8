@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAppReference ContentHash="{x:Null}" Reference="{x:Null}" FileName="C:\Windows\System32\mspaint.exe" Selector="&lt;wnd app='mspaint.exe' cls='MSPaintApp' title='Untitled - Paint' /&gt;" xmlns="clr-namespace:UiPath.Core.Activities.ScopeActivities;assembly=UiPath.UiAutomation.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <imageRef attrName="InformativeScreenshot" originalValue="a54018bf69eda0553483e5dec5bb4d9a" xmlns="">ooAiT5oMU0uYzjwIWOGZ0g</imageRef>
+</TargetAppReference>

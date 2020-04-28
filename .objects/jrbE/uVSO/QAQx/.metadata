@@ -1,0 +1,13 @@
+﻿{
+  "Id": "QAQxlvksL06AMa9DsMZQnA",
+  "Reference": "GFRKbyOKv06cSR5T_B0UHQ/QAQxlvksL06AMa9DsMZQnA",
+  "ParentRef": "GFRKbyOKv06cSR5T_B0UHQ/uVSONslgiESAzNWjd8XR-w",
+  "Name": "Open Application 'mspaint.exe Untitled'",
+  "Type": "Screen",
+  "Created": "2020-04-28T08:11:19.6025818Z",
+  "CreatedBy": [
+    "UiPath.UiAutomation.Activities, Version=20.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-04-28T08:11:19.6025818Z"
+}
