@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAppReference ContentHash="-vJbTLsn4ku-Q3KlFmv89Q" FileName="Microsoft.WindowsCalculator_8wekyb3d8bbwe!App" Reference="n7dBfJGVEkOibfRZ9qeIjw/Q5m7t9MvUEmnHb4dwyRgpA" Selector="&lt;wnd app='applicationframehost.exe' appid='Microsoft.WindowsCalculator_8wekyb3d8bbwe!App' title='Calculator' /&gt;" xmlns="clr-namespace:UiPath.Core.Activities.ScopeActivities;assembly=UiPath.UiAutomation.Activities">
+  <imageRef attrName="InformativeScreenshot" originalValue="23cf521b3c2513b4e277b121959943e0" xmlns="">ebe7TPL6L0e7tvuN38GujA</imageRef>
+</TargetAppReference>

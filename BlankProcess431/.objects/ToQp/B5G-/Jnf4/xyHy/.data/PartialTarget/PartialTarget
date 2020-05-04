@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1e34825d-3ae1-4bf5-9ad5-e6f79d293dac" Selector="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='NumberPad' cls='NamedContainerAutomationPeer' name='Number pad' /&gt;&lt;uia automationid='num1Button' cls='Button' name='One' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Target.TimeoutMS>
+    <p:InArgument x:TypeArguments="x:Int32" />
+  </Target.TimeoutMS>
+  <Target.WaitForReady>
+    <p:InArgument x:TypeArguments="WaitForReady" />
+  </Target.WaitForReady>
+  <imageRef attrName="InformativeScreenshot" originalValue="ecc866ef9f27bb2fe4a4260804c558e5" xmlns="">HqxnZE5S_0SXpjuQCuja2Q</imageRef>
+</Target>

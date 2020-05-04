@@ -1,0 +1,1 @@
+<uia cls="LandmarkTarget" /><uia automationid="NumberPad" cls="NamedContainerAutomationPeer" name="Number pad" /><uia automationid="num1Button" cls="Button" name="One" />
