@@ -1,17 +1,20 @@
 {
-  "name": "BlankProcess435",
+  "name": "MonaLisa",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.8.5]",
-    "UiPath.Mail.Activities": "[1.8.5]",
-    "UiPath.System.Activities": "[20.4.0]",
-    "UiPath.UIAutomation.Activities": "[20.4.1]"
+    "AForge.Genetic": "[2.2.5]",
+    "AForge.Imaging": "[2.2.5]",
+    "BlankLibrary84": "[1.0.1]",
+    "UiPath.Excel.Activities": "[2.7.2]",
+    "UiPath.Mail.Activities": "[1.7.2]",
+    "UiPath.System.Activities": "[19.10.1]",
+    "UiPath.UIAutomation.Activities": "[19.11.4]"
   },
   "webServices": [],
   "schemaVersion": "4.0",
-  "studioVersion": "20.4.1.0",
-  "projectVersion": "1.0.0",
+  "studioVersion": "19.10.6.0",
+  "projectVersion": "1.0.2",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -30,7 +33,11 @@
       "includeOriginalXaml": false,
       "privateWorkflows": []
     },
-    "fileInfoCollection": []
+    "fileInfos": []
+  },
+  "arguments": {
+    "input": [],
+    "output": []
   },
   "expressionLanguage": "VisualBasic"
 }
