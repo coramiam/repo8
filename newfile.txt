@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-some file text 
-=======
-some file commit message from branch test
->>>>>>> test
+test test branch
