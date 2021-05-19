@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="811.2,1839.2" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:b="clr-namespace:BlankLibrary84;assembly=BlankLibrary84" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1848,1700" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="42">
       <x:String>System.Activities</x:String>
@@ -46,7 +46,7 @@
       <AssemblyReference>BlankLibrary84</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="541.6,1774.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="544,1635" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:GenericValue" Name="VALUEEE" />
     </Sequence.Variables>
@@ -55,40 +55,37 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="assetMN" DisplayName="Get Asset" sap:VirtualizedContainerService.HintSize="500,22.4" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
+    <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="assetMN" DisplayName="Get Asset" sap:VirtualizedContainerService.HintSize="502,79" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
       <ui:GetRobotAsset.Value>
         <OutArgument x:TypeArguments="ui:GenericValue">[VALUEEE]</OutArgument>
       </ui:GetRobotAsset.Value>
     </ui:GetRobotAsset>
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="500,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[VALUEEE]" />
-    <b:NewActivity sap:VirtualizedContainerService.HintSize="500,22.4" sap2010:WorkflowViewState.IdRef="NewActivity_2" />
-    <b:NewActivity sap:VirtualizedContainerService.HintSize="500,22.4" sap2010:WorkflowViewState.IdRef="NewActivity_3" />
-    <b:NewActivity sap:VirtualizedContainerService.HintSize="500,22.4" sap2010:WorkflowViewState.IdRef="NewActivity_1" />
-    <Sequence DisplayName="Desktop" sap:VirtualizedContainerService.HintSize="500,1329.6" sap2010:WorkflowViewState.IdRef="Sequence_5">
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="502,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[VALUEEE]" />
+    <Sequence DisplayName="Desktop" sap:VirtualizedContainerService.HintSize="502,1323" sap2010:WorkflowViewState.IdRef="Sequence_5">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Zoom Zpptmainf'" sap:VirtualizedContainerService.HintSize="458.4,742.4" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="ae8d992ffc18758286eaa15520ecea51" Selector="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom' /&gt;">
+      <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Zoom Zpptmainf'" sap:VirtualizedContainerService.HintSize="460,737" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="ae8d992ffc18758286eaa15520ecea51" Selector="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom' /&gt;">
         <ui:WindowScope.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="424.8,595.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="426,591" sap2010:WorkflowViewState.IdRef="Sequence_2">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:AnchorBase AnchorPosition="Bottom" sap:VirtualizedContainerService.HintSize="383.2,355.2" sap2010:WorkflowViewState.IdRef="AnchorBase_1">
+              <ui:AnchorBase AnchorPosition="Bottom" sap:VirtualizedContainerService.HintSize="384,352" sap2010:WorkflowViewState.IdRef="AnchorBase_1">
                 <ui:AnchorBase.Action>
                   <ActivityAction x:TypeArguments="ui:Anchor">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="ui:Anchor" Name="ContextAnchor" />
                     </ActivityAction.Argument>
-                    <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Action Click 'pane'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                    <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Action Click 'pane'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                       <ui:Click.CursorPosition>
                         <ui:CursorPosition OffsetX="91" OffsetY="94" Position="TopLeft" />
                       </ui:Click.CursorPosition>
@@ -106,7 +103,7 @@
                   </ActivityAction>
                 </ui:AnchorBase.Action>
                 <ui:AnchorBase.AnchorProvider>
-                  <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Anchor Find Element 'link Add'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_1">
+                  <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Anchor Find Element 'link Add'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_1">
                     <ui:WaitUiElementAppear.Target>
                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="fbf1312856584c711478b8d33c4bb9a5" Selector="&lt;ctrl idx='3' name='Add a calendar service, open in your default browser.' role='link' /&gt;">
                         <ui:Target.TimeoutMS>
