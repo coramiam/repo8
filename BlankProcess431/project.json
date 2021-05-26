@@ -3,6 +3,8 @@
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
+    "21.4_heja": "[1.0.3]",
+    "BlankLibrary": "1.0.3",
     "CalculatorBeta1780.Descriptors": "[1.0.1]",
     "UiPath.Excel.Activities": "[2.8.4-preview]",
     "UiPath.Mail.Activities": "[1.8.4-preview]",
@@ -10,9 +12,10 @@
     "UiPath.UIAutomation.Activities": "[20.4.1-preview]"
   },
   "webServices": [],
+  "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.4.0.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.1",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -22,7 +25,9 @@
       "Private:*",
       "*password*"
     ],
-    "executionType": "Workflow"
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -31,7 +36,23 @@
       "includeOriginalXaml": false,
       "privateWorkflows": []
     },
-    "fileInfoCollection": []
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
   },
-  "expressionLanguage": "VisualBasic"
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "f49ea372-6aed-492a-a25e-0363cc34c9d8",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
 }
