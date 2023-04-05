@@ -6,7 +6,6 @@
     "AForge.Genetic": "[2.2.5]",
     "AForge.Imaging": "[2.2.5]",
     "BitMiracle.Docotic.Pdf": "8.5.13176-dev",
-    "BlankLibrary84": "[1.0.1]",
     "UiPath.Excel.Activities": "[2.12.3-beta.2507142]",
     "UiPath.Mail.Activities": "[1.15.0-preview]",
     "UiPath.System.Activities": "[22.4.0-preview]",
@@ -24,6 +23,7 @@
     "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -31,7 +31,8 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": false
+    "mustRestoreAllDependencies": false,
+    "pipType": "ChildSession"
   },
   "designOptions": {
     "projectProfile": "Developement",
